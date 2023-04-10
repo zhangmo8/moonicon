@@ -11,6 +11,9 @@
   "scripts": {
     "build:vue3": "ts-node-esm scripts/index.ts"
   },
+  "dependencies": {
+    "@moonicon/svg": "workspace:^1.0.0"
+  },
   "repository": {
     "directory": "packages/moonicon-svg"
   }

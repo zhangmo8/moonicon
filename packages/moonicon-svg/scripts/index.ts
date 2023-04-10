@@ -3,6 +3,11 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { green, red, yellow } from 'kolorist'
 
+// ignore
+import V3 from '../component-template/vue-next'
+
+console.log(V3())
+
 const filename = fileURLToPath(import.meta.url)
 const _dirname = path.dirname(filename)
 
